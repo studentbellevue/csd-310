@@ -6,7 +6,7 @@ CREATE TABLE player
     last_name	VARCHAR(75) NOT NULL,
     team_id		INT			NOT NULL,
     PRIMARY KEY(player_id),
-    CONSTRAINT fk_team, 
+    CONSTRAINT fk_team 
     FOREIGN KEY(team_id)
 		REFERENCES team(team_id)
 );
