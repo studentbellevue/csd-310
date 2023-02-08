@@ -1,4 +1,4 @@
-"""pysports_join_queries.py: """
+"""pysports_join_queries.py: updates player database with new player, changes his team and info, deletes new player"""
 ___author___ = "Devon Lohrmann"
 
 import mysql.connector
